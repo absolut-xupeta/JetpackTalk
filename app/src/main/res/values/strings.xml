@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">JetpackTalk</string>
+    <string name="hello">Hello!</string>
+    <string name="ouch">Ouch!</string>
+    <string name="stop_touching_me">STOP TOUCHING ME</string>
+    <string name="im_static">HEY I\'M STATIC!!!</string>
+</resources>
