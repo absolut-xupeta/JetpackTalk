@@ -13,6 +13,7 @@ import com.example.jetpacktalk.ui.theme.JetpackTalkTheme
 import com.example.jetpacktalk.ui.view.ClickMe
 import com.example.jetpacktalk.ui.view.LazyExample
 import com.example.jetpacktalk.ui.view.Resources
+import com.example.jetpacktalk.ui.view.ScaffoldExample
 import com.example.jetpacktalk.util.Screens
 
 class MainActivity : ComponentActivity() {
@@ -27,7 +28,11 @@ class MainActivity : ComponentActivity() {
                 composable(Screens.STYLE_EXAMPLE) { Resources() }
                 composable(Screens.CLICK_ME) { ClickMe() }
                 composable(Screens.LAZY_EXAMPLE) { LazyExample() }
-                composable(Screens.SCAFFOLD_EXAMPLE) { LazyExample() }
+                composable(Screens.SCAFFOLD_EXAMPLE) {
+                    JetpackTalkTheme(darkTheme = true) {
+                        ScaffoldExample()
+                    }
+                }
             }
         }
     }
