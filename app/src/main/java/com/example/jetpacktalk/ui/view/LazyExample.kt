@@ -1,4 +1,4 @@
-package com.example.jetpacktalk
+package com.example.jetpacktalk.ui.view
 
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.padding
@@ -11,6 +11,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.example.jetpacktalk.R
 import com.example.jetpacktalk.ui.theme.Purple700
 import com.example.jetpacktalk.ui.theme.Teal200
 import com.example.jetpacktalk.ui.theme.Typography
