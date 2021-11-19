@@ -9,7 +9,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Color.Companion.Black
 
 private val DarkColorPalette = darkColors(
-    background = White,
+    background = Black,
     surface = Black,
     primary = Color.Magenta,
     primaryVariant = Purple700,
