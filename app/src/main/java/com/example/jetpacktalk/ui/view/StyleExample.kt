@@ -1,4 +1,4 @@
-package com.example.jetpacktalk
+package com.example.jetpacktalk.ui.view
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
